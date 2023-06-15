@@ -7,6 +7,9 @@ import { galleryItems } from './gallery-items';
 
 const galleryList = document.querySelector('.gallery');
 const galleryMarkup = createGalleryCardsMarkup(galleryItems);
+const list = document.querySelector('.gallery');
+
+list.style.listStyle = 'none';
 
 galleryList.insertAdjacentHTML('beforeend', galleryMarkup);
 
