@@ -18,7 +18,7 @@ refs.form.addEventListener(
     userData[event.target.name] = event.target.value;
     localStorage.setItem('feedback-form-state', JSON.stringify(userData));
   }),
-  300
+  500
 );
 
 function onFormSubmit(event) {
